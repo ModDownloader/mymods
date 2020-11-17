@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "resource_generator:blocks/xp",
+    "up": "resource_generator:blocks/xp",
+    "north": "resource_generator:blocks/xp",
+    "east": "resource_generator:blocks/xp",
+    "south": "resource_generator:blocks/xp",
+    "west": "resource_generator:blocks/xp",
+    "particle": "resource_generator:blocks/xp"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "testowy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testowy:clone_planks"
+    },
+    "3": {
+      "item": "testowy:clone_planks"
+    },
+    "4": {
+      "item": "testowy:clone_planks"
+    },
+    "6": {
+      "item": "testowy:clone_planks"
+    },
+    "7": {
+      "item": "testowy:clone_planks"
+    },
+    "8": {
+      "item": "testowy:clone_planks"
+    }
+  },
+  "result": {
+    "item": "testowy:clone_stairs",
+    "count": 4
+  }
+}

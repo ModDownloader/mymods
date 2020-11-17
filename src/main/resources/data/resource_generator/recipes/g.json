@@ -1,0 +1,13 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "resource_generator:xprain",
+    "count": 1
+  }
+}

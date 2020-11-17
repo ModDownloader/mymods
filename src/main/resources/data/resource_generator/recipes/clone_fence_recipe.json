@@ -1,0 +1,32 @@
+{
+  "group": "testowy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "testowy:clone_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "testowy:clone_planks"
+    },
+    "3": {
+      "item": "testowy:clone_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "testowy:clone_planks"
+    }
+  },
+  "result": {
+    "item": "testowy:clone_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "_fv": 13,
+  "_type": "block",
+  "definition": {
+    "texture": "emee",
+    "textureTop": "emee",
+    "textureLeft": "eme",
+    "textureFront": "eme",
+    "textureRight": "eme",
+    "textureBack": "eme",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "name": "Emerald Generator",
+    "specialInfo": [
+      "/emerald"
+    ],
+    "hardness": 1.95,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "CUSTOM:Generators"
+    },
+    "destroyTool": "axe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 5,
+    "useLootTableForDrops": false,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "BLOCK",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "PORTAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.999999998509884,
+    "particleAmount": 5,
+    "hasInventory": false,
+    "guiBoundTo": "Emegenerator",
+    "openGUIOnRightClick": true,
+    "inventorySize": 10,
+    "inventoryStackSize": 100,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": false,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "onBlockPlayedBy": {
+      "name": "EmeraldGeneratorBlockIsPlacedBy"
+    },
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

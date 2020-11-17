@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testowy:block/clone_slab"
+    },
+    "type=top": {
+      "model": "testowy:block/clone_slab_top"
+    },
+    "type=double": {
+      "model": "testowy:block/clone_slab_full"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "resource_generator:block/cat_portal_ew"
+    },
+    "axis=x": {
+      "model": "resource_generator:block/cat_portal_ns"
+    }
+  }
+}

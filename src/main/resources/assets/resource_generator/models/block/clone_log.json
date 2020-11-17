@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testowy:blocks/clone_log_top",
+    "up": "testowy:blocks/clone_log_top",
+    "north": "testowy:blocks/clone_log_side",
+    "east": "testowy:blocks/clone_log_side",
+    "south": "testowy:blocks/clone_log_side",
+    "west": "testowy:blocks/clone_log_side",
+    "particle": "testowy:blocks/clone_log_top"
+  }
+}

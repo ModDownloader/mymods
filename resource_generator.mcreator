@@ -1,0 +1,603 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Generators",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "my_mod"
+    },
+    {
+      "name": "Emegenerator",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emegenerator"
+    },
+    {
+      "name": "EmeCommandExecuted",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eme_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldGeneratorBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_generator_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eme",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eme"
+    },
+    {
+      "name": "Button",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dziesieceme",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dziesieceme",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Szesccztery",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "szesccztery",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blok",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blok",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldGenerator",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_generator"
+    },
+    {
+      "name": "Recipeeme",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipeeme"
+    },
+    {
+      "name": "Lol",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lol",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xp",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp"
+    },
+    {
+      "name": "Hiperkilof",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiperkilof"
+    },
+    {
+      "name": "Hiperkilo",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hiperkilo"
+    },
+    {
+      "name": "SuperMiecz",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_miecz"
+    },
+    {
+      "name": "Supersiec",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supersiec"
+    },
+    {
+      "name": "Multinarzedzie",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "multinarzedzie"
+    },
+    {
+      "name": "Multin",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "multin"
+    },
+    {
+      "name": "Zarelko",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zarelko"
+    },
+    {
+      "name": "Xprain",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xprain"
+    },
+    {
+      "name": "G",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g"
+    },
+    {
+      "name": "Cat",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat"
+    },
+    {
+      "name": "CatPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mybiome",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mybiome"
+    },
+    {
+      "name": "Xd",
+      "type": "mob",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xd"
+    },
+    {
+      "name": "Xprainitem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xprainitem"
+    },
+    {
+      "name": "MiedziuchaIngot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_ingot"
+    },
+    {
+      "name": "MiedziuchaOre",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_ore"
+    },
+    {
+      "name": "MiedziuchaBlock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_block"
+    },
+    {
+      "name": "MiedziuchaOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_ore_block_recipe"
+    },
+    {
+      "name": "MiedziuchaBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_block_ore_recipe"
+    },
+    {
+      "name": "MiedziuchaOreSmelting",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_ore_smelting"
+    },
+    {
+      "name": "MiedziuchaPickaxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_pickaxe"
+    },
+    {
+      "name": "MiedziuchaAxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_axe"
+    },
+    {
+      "name": "MiedziuchaSword",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_sword"
+    },
+    {
+      "name": "MiedziuchaShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_shovel"
+    },
+    {
+      "name": "MiedziuchaHoe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_hoe"
+    },
+    {
+      "name": "MiedziuchaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_pickaxe_recipe"
+    },
+    {
+      "name": "MiedziuchaAxeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_axe_recipe"
+    },
+    {
+      "name": "MiedziuchaSwordRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_sword_recipe"
+    },
+    {
+      "name": "MiedziuchaShovelRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_shovel_recipe"
+    },
+    {
+      "name": "MiedziuchaHoeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_hoe_recipe"
+    },
+    {
+      "name": "MiedziuchaArmor",
+      "type": "armor",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MiedziuchaArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_armor_helmet_recipe"
+    },
+    {
+      "name": "MiedziuchaArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_armor_body_recipe"
+    },
+    {
+      "name": "MiedziuchaArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_armor_leggings_recipe"
+    },
+    {
+      "name": "MiedziuchaArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_armor_boots_recipe"
+    },
+    {
+      "name": "MiedziuchaOreGotowanie",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miedziucha_ore_gotowanie"
+    },
+    {
+      "name": "Dino",
+      "type": "mob",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dino"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "dino.living",
+      "files": [
+        "monster-laugh-soundbible.com-542163030"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "dino.death",
+      "files": [
+        "tyrannosaurus-rex-soundbible.com-2136096676"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.resource_generator.xprainitem": "Xp rain item",
+      "block.resource_generator.xprain": "Xp rain",
+      "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
+      "item.resource_generator.miedziucha_hoe": "Miedziucha Hoe",
+      "item.resource_generator.miedziucha_shovel": "Miedziucha Shovel",
+      "itemGroup.tabmy_mod": "My mod",
+      "item.resource_generator.dino_spawn_egg": "Dino Spawn Egg",
+      "item.resource_generator.zarelko": "¯are³ko",
+      "item.resource_generator.miedziucha_axe": "Miedziucha Axe",
+      "item.resource_generator.miedziucha_armor_chestplate": "Miedziucha Chestplate",
+      "item.resource_generator.cat": "Cat Portal Igniter",
+      "item.resource_generator.miedziucha_armor_helmet": "Miedziucha Helmet",
+      "biome.resource_generator.mybiome": "Mybiome",
+      "item.resource_generator.miedziucha_armor_boots": "Miedziucha Boots",
+      "block.resource_generator.emerald_generator": "Emerald Generator",
+      "item.resource_generator.super_miecz": "Super Miecz",
+      "item.resource_generator.xd_spawn_egg": "Xd Spawn Egg",
+      "item.resource_generator.multinarzedzie": "Multinarzedzie",
+      "item.resource_generator.miedziucha_ingot": "Miedziucha",
+      "subtitles.dino.death": "",
+      "item.resource_generator.miedziucha_armor_leggings": "Miedziucha Leggings",
+      "entity.resource_generator.dino": "Dino",
+      "entity.resource_generator.xd": "Xd",
+      "item.resource_generator.miedziucha_sword": "Miedziucha Sword",
+      "item.resource_generator.hiperkilof": "Hiperkilof",
+      "item.resource_generator.xd": "Xd Spawn Egg",
+      "subtitles.dino.living": "",
+      "block.resource_generator.miedziucha_block": "Block of Miedziucha",
+      "block.resource_generator.miedziucha_ore": "Miedziucha Ore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "resource_generator",
+    "modName": "Resource generator",
+    "version": "1.0.0",
+    "author": "Guest, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.resourcegenerator",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000546519
+}

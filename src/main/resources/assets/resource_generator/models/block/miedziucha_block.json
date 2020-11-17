@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "resource_generator:blocks/miedziucha_ore_block",
+    "particle": "resource_generator:blocks/miedziucha_ore_block"
+  }
+}

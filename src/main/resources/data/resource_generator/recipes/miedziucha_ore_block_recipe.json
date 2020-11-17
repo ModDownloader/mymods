@@ -1,0 +1,42 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "1": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "2": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "3": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "4": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "5": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "6": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "7": {
+      "item": "resource_generator:miedziucha_ingot"
+    },
+    "8": {
+      "item": "resource_generator:miedziucha_ingot"
+    }
+  },
+  "result": {
+    "item": "resource_generator:miedziucha_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "Mybiome",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 30,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "treeBranch": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "treeFruits": {
+      "value": "Blocks.EMERALD_BLOCK"
+    },
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13261999,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13261999,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14329397,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14329397,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 1,
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 30,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.0,
+    "temperature": 1.0,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "Lakes"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityFallingBlock"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityArrow"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityGiantZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityExpBottle"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityLlama"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityXPOrb"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

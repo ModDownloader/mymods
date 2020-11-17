@@ -1,0 +1,13 @@
+{
+  "group": "testowy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:clone_log"
+    }
+  ],
+  "result": {
+    "item": "testowy:clone_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "miecz",
+    "customModelName": "Normal",
+    "name": "Super Miecz",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Generators"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 21.900000000000002,
+    "enchantability": 2,
+    "damageVsEntity": 10000.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

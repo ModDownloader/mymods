@@ -1,0 +1,13 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "resource_generator:miedziucha_block"
+    }
+  ],
+  "result": {
+    "item": "resource_generator:miedziucha_ingot",
+    "count": 9
+  }
+}

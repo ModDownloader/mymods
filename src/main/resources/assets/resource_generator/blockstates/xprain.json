@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "resource_generator:block/xprain"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dino.living": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "resource_generator:monster-laugh-soundbible.com-542163030",
+        "stream": false
+      }
+    ]
+  },
+  "dino.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "resource_generator:tyrannosaurus-rex-soundbible.com-2136096676",
+        "stream": false
+      }
+    ]
+  }
+}

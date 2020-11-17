@@ -1,0 +1,81 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Emerald generator",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Emerald generator",
+          "x": 174,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "1 eme",
+          "onClick": {
+            "name": "Button"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "1 eme",
+          "x": 187,
+          "y": 73
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "10 eme",
+          "onClick": {
+            "name": "Dziesieceme"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "10 eme",
+          "x": 183,
+          "y": 105
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "64 eme",
+          "onClick": {
+            "name": "Szesccztery"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "64 eme",
+          "x": 182,
+          "y": 131
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "64 blok eme",
+          "width": 110,
+          "height": 20,
+          "name": "64 blok eme",
+          "x": 160,
+          "y": 162
+        }
+      }
+    ]
+  }
+}

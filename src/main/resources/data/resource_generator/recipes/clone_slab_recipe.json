@@ -1,0 +1,22 @@
+{
+  "group": "testowy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "testowy:clone_planks"
+    },
+    "1": {
+      "item": "testowy:clone_planks"
+    },
+    "2": {
+      "item": "testowy:clone_planks"
+    }
+  },
+  "result": {
+    "item": "testowy:clone_slab",
+    "count": 6
+  }
+}

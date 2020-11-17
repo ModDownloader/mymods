@@ -1,0 +1,26 @@
+{
+  "group": "testowy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "testowy:clone_log"
+    },
+    "1": {
+      "item": "testowy:clone_log"
+    },
+    "2": {
+      "item": "testowy:clone_log"
+    },
+    "3": {
+      "item": "testowy:clone_log"
+    }
+  },
+  "result": {
+    "item": "testowy:clone_wood",
+    "count": 3
+  }
+}

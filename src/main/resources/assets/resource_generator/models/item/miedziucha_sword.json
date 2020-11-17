@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "resource_generator:items/miedziucha_sword"
+  }
+}

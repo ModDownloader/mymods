@@ -1,0 +1,20 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:dirt"
+    },
+    "2": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "resource_generator:multinarzedzie",
+    "count": 5
+  }
+}

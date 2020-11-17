@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "testowy:blocks/clone_planks",
+    "top": "testowy:blocks/clone_planks",
+    "side": "testowy:blocks/clone_planks"
+  }
+}

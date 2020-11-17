@@ -1,0 +1,23 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "papu",
+    "customModelName": "Normal",
+    "name": "¯are³ko",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 50,
+    "saturation": 5.0,
+    "eatingSpeed": 40,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

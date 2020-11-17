@@ -1,0 +1,12 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:campfire_cooking",
+  "experience": 105,
+  "cookingtime": 1200,
+  "ingredient": {
+    "item": "resource_generator:miedziucha_ore"
+  },
+  "result": {
+    "item": "resource_generator:miedziucha_block"
+  }
+}

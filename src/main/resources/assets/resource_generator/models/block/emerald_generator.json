@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "resource_generator:blocks/emee",
+    "up": "resource_generator:blocks/emee",
+    "north": "resource_generator:blocks/eme",
+    "east": "resource_generator:blocks/eme",
+    "south": "resource_generator:blocks/eme",
+    "west": "resource_generator:blocks/eme",
+    "particle": "resource_generator:blocks/emee"
+  }
+}
