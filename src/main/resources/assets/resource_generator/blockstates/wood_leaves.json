@@ -1,7 +1,7 @@
 {
   "variants": {
-    "normal": {
-      "model": "resource_generator:wood_leaves"
+    "": {
+      "model": "resource_generator:block/wood_leaves"
     }
   }
 }

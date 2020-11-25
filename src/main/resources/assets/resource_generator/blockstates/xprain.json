@@ -1,7 +1,7 @@
 {
   "variants": {
-    "normal": {
-      "model": "resource_generator:xprain"
+    "": {
+      "model": "resource_generator:block/xprain"
     }
   }
 }

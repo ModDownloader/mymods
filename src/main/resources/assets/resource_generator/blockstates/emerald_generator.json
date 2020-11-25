@@ -1,7 +1,7 @@
 {
   "variants": {
-    "normal": {
-      "model": "resource_generator:emerald_generator"
+    "": {
+      "model": "resource_generator:block/emerald_generator"
     }
   }
 }

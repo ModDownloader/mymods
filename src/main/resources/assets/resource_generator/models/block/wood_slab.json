@@ -1,5 +1,5 @@
 {
-  "parent": "block/half_slab",
+  "parent": "block/slab",
   "textures": {
     "bottom": "resource_generator:blocks/wood_planks",
     "top": "resource_generator:blocks/wood_planks",
