@@ -33,9 +33,9 @@ public class LolProcedure extends ResourceGeneratorModElements.ModElement {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		for (int index0 = 0; index0 < (int) (1000); index0++) {
+		for (int index0 = 0; index0 < (int) (200); index0++) {
 			if (world instanceof World && !world.getWorld().isRemote) {
-				world.getWorld().addEntity(new ExperienceOrbEntity(world.getWorld(), x, 200, z, (int) 10));
+				world.getWorld().addEntity(new ExperienceOrbEntity(world.getWorld(), x, 200, z, (int) 100000));
 			}
 		}
 	}
