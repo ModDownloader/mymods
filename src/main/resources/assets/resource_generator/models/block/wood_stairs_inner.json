@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "resource_generator:blocks/wood_planks",
+    "top": "resource_generator:blocks/wood_planks",
+    "side": "resource_generator:blocks/wood_planks"
+  }
+}

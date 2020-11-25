@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "resource_generator:blocks/wood_planks",
+    "particle": "resource_generator:blocks/wood_planks"
+  }
+}

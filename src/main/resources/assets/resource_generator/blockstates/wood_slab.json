@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "resource_generator:block/wood_slab"
+    },
+    "type=top": {
+      "model": "resource_generator:block/wood_slab_top"
+    },
+    "type=double": {
+      "model": "resource_generator:block/wood_slab_full"
+    }
+  }
+}

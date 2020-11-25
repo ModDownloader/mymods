@@ -1,0 +1,13 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:wood_log"
+    }
+  ],
+  "result": {
+    "item": "resource_generator:wood_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "resource_generator:wood_wood",
+    "resource_generator:wood_log"
+  ]
+}

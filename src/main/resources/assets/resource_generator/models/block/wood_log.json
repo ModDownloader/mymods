@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "resource_generator:blocks/wood_log_top",
+    "up": "resource_generator:blocks/wood_log_top",
+    "north": "resource_generator:blocks/wood_log_side",
+    "east": "resource_generator:blocks/wood_log_side",
+    "south": "resource_generator:blocks/wood_log_side",
+    "west": "resource_generator:blocks/wood_log_side",
+    "particle": "resource_generator:blocks/wood_log_top"
+  }
+}

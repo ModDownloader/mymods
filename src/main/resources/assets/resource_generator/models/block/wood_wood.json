@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "resource_generator:blocks/wood_log_side",
+    "particle": "resource_generator:blocks/wood_log_side"
+  }
+}

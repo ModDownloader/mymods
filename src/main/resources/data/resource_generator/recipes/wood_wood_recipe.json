@@ -1,0 +1,26 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "resource_generator:wood_log"
+    },
+    "1": {
+      "item": "resource_generator:wood_log"
+    },
+    "2": {
+      "item": "resource_generator:wood_log"
+    },
+    "3": {
+      "item": "resource_generator:wood_log"
+    }
+  },
+  "result": {
+    "item": "resource_generator:wood_wood",
+    "count": 3
+  }
+}

@@ -553,6 +553,150 @@
           }
         ]
       }
+    },
+    {
+      "name": "WoodWood",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_wood"
+    },
+    {
+      "name": "WoodLog",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_log"
+    },
+    {
+      "name": "WoodPlanks",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_planks"
+    },
+    {
+      "name": "WoodLeaves",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_leaves"
+    },
+    {
+      "name": "WoodStairs",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_stairs"
+    },
+    {
+      "name": "WoodSlab",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_slab"
+    },
+    {
+      "name": "WoodFence",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_fence"
+    },
+    {
+      "name": "WoodFenceGate",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_fence_gate"
+    },
+    {
+      "name": "WoodItemsTag",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_items_tag"
+    },
+    {
+      "name": "WoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_wood_recipe"
+    },
+    {
+      "name": "WoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_planks_recipe"
+    },
+    {
+      "name": "WoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_stairs_recipe"
+    },
+    {
+      "name": "WoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_slab_recipe"
+    },
+    {
+      "name": "WoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_fence_recipe"
+    },
+    {
+      "name": "WoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_fence_gate_recipe"
+    },
+    {
+      "name": "WoodStickRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_stick_recipe"
     }
   ],
   "variable_elements": [],
@@ -582,9 +726,12 @@
       "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
       "item.resource_generator.miedziucha_shovel": "Miedziucha Shovel",
       "itemGroup.tabmy_mod": "My mod",
+      "block.resource_generator.wood_planks": "Wood Planks",
       "item.resource_generator.dino_spawn_egg": "Dino Spawn Egg",
       "item.resource_generator.miedziucha_axe": "Miedziucha Axe",
       "item.resource_generator.zarelko": "¯are³ko",
+      "block.resource_generator.wood_fence_gate": "Wood Fence Gate",
+      "block.resource_generator.wood_wood": "Wood Wood",
       "item.resource_generator.miedziucha_armor_chestplate": "Miedziucha Chestplate",
       "item.resource_generator.cat": "Cat Portal Igniter",
       "item.resource_generator.miedziucha_armor_helmet": "Miedziucha Helmet",
@@ -592,6 +739,7 @@
       "item.resource_generator.miedziucha_armor_boots": "Miedziucha Boots",
       "block.resource_generator.emerald_generator": "Emerald Generator",
       "item.resource_generator.super_miecz": "Super Miecz",
+      "block.resource_generator.wood_slab": "Wood Slab",
       "item.resource_generator.xd_spawn_egg": "Xd Spawn Egg",
       "item.resource_generator.multinarzedzie": "Multinarzedzie",
       "item.resource_generator.miedziucha_ingot": "Miedziucha",
@@ -599,12 +747,16 @@
       "item.resource_generator.miedziucha_armor_leggings": "Miedziucha Leggings",
       "entity.resource_generator.dino": "Dino",
       "entity.resource_generator.xd": "Xd",
+      "block.resource_generator.wood_stairs": "Wood Stairs",
       "item.resource_generator.miedziucha_sword": "Miedziucha Sword",
+      "block.resource_generator.wood_fence": "Wood Fence",
       "item.resource_generator.hiperkilof": "Hiperkilof",
       "item.resource_generator.xd": "Xd Spawn Egg",
       "subtitles.dino.living": "",
       "block.resource_generator.miedziucha_block": "Block of Miedziucha",
-      "block.resource_generator.miedziucha_ore": "Miedziucha Ore"
+      "block.resource_generator.wood_log": "Wood Log",
+      "block.resource_generator.miedziucha_ore": "Miedziucha Ore",
+      "block.resource_generator.wood_leaves": "Wood Leaves"
     }
   },
   "workspaceSettings": {
