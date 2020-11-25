@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "resource_generator:block/miedziucha_ore"
+    "normal": {
+      "model": "resource_generator:miedziucha_ore"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "resource_generator:block/wood_planks"
+    "normal": {
+      "model": "resource_generator:wood_planks"
     }
   }
 }

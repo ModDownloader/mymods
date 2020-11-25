@@ -1,13 +1,10 @@
 {
   "variants": {
-    "type=bottom": {
-      "model": "resource_generator:block/wood_slab"
+    "half=bottom,variant=default": {
+      "model": "resource_generator:wood_slab"
     },
-    "type=top": {
-      "model": "resource_generator:block/wood_slab_top"
-    },
-    "type=double": {
-      "model": "resource_generator:block/wood_slab_full"
+    "half=top,variant=default": {
+      "model": "resource_generator:wood_slab_top"
     }
   }
 }

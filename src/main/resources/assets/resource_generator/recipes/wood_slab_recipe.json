@@ -1,0 +1,23 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "resource_generator:wood_planks"
+    },
+    "1": {
+      "item": "resource_generator:wood_planks"
+    },
+    "2": {
+      "item": "resource_generator:wood_planks"
+    }
+  },
+  "result": {
+    "item": "resource_generator:wood_slab",
+    "data": 0,
+    "count": 6
+  }
+}

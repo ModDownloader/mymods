@@ -1,0 +1,34 @@
+{
+  "group": "resource_generator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:dirt",
+      "data": 0
+    },
+    "3": {
+      "item": "minecraft:dirt",
+      "data": 0
+    },
+    "4": {
+      "item": "minecraft:emerald"
+    },
+    "5": {
+      "item": "minecraft:dirt",
+      "data": 0
+    },
+    "7": {
+      "item": "minecraft:dirt",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "resource_generator:emerald_generator",
+    "count": 2
+  }
+}

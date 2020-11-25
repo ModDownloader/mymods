@@ -1,5 +1,9 @@
 {
-  "id_map": {},
+  "id_map": {
+    "ENTITY": 4,
+    "DIMENSION": 1,
+    "GUI": 2
+  },
   "mod_elements": [
     {
       "name": "Generators",
@@ -16,7 +20,9 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "0": 1
+      },
       "registry_name": "emegenerator"
     },
     {
@@ -179,7 +185,9 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "0": 2
+      },
       "registry_name": "xp"
     },
     {
@@ -269,7 +277,9 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "1": 1
+      },
       "registry_name": "cat"
     },
     {
@@ -304,7 +314,10 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
       "registry_name": "xd"
     },
     {
@@ -526,7 +539,10 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
+      "ids": {
+        "0": 3,
+        "1": 4
+      },
       "registry_name": "dino"
     },
     {
@@ -721,59 +737,90 @@
   "language_map": {
     "en_us": {
       "item.resource_generator.xprainitem": "Xp rain item",
+      "item.miedziucha_armorlegs.name": "Miedziucha Leggings",
       "block.resource_generator.xprain": "Xp rain",
-      "item.resource_generator.miedziucha_hoe": "Miedziucha Hoe",
-      "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
+      "tile.wood_wood.name": "Wood Wood",
       "item.resource_generator.miedziucha_shovel": "Miedziucha Shovel",
-      "itemGroup.tabmy_mod": "My mod",
-      "block.resource_generator.wood_planks": "Wood Planks",
+      "item.miedziucha_armorhelmet.name": "Miedziucha Helmet",
       "item.resource_generator.dino_spawn_egg": "Dino Spawn Egg",
       "item.resource_generator.miedziucha_axe": "Miedziucha Axe",
+      "tile.wood_leaves.name": "Wood Leaves",
+      "item.miedziucha_shovel.name": "Miedziucha Shovel",
+      "item.resource_generator.miedziucha_armor_chestplate": "Miedziucha Chestplate",
+      "item.cat.name": "Cat Portal Igniter",
+      "item.miedziucha_armorbody.name": "Miedziucha Chestplate",
+      "item.resource_generator.miedziucha_armor_helmet": "Miedziucha Helmet",
+      "item.miedziucha_sword.name": "Miedziucha Sword",
+      "biome.resource_generator.mybiome": "Mybiome",
+      "block.resource_generator.emerald_generator": "Emerald Generator",
+      "block.resource_generator.wood_slab": "Wood Slab",
+      "item.xprainitem.name": "Xp rain item",
+      "item.resource_generator.xd_spawn_egg": "Xd Spawn Egg",
+      "tile.xprain.name": "Xp rain",
+      "item.resource_generator.miedziucha_ingot": "Miedziucha",
+      "entity.dino.name": "Dino",
+      "tile.miedziucha_block.name": "Block of Miedziucha",
+      "subtitles.dino.death": "",
+      "item.resource_generator.miedziucha_armor_leggings": "Miedziucha Leggings",
+      "item.miedziucha_pickaxe.name": "Miedziucha Pickaxe",
+      "entity.resource_generator.xd": "Xd",
+      "item.resource_generator.hiperkilof": "Hiperkilof",
+      "subtitles.dino.living": "",
+      "entity.xd.name": "Xd",
+      "item.miedziucha_hoe.name": "Miedziucha Hoe",
+      "block.resource_generator.miedziucha_block": "Block of Miedziucha",
+      "item.multinarzedzie.name": "Multinarzedzie",
+      "item.miedziucha_armorboots.name": "Miedziucha Boots",
+      "block.resource_generator.wood_log": "Wood Log",
+      "item.hiperkilof.name": "Hiperkilof",
+      "tile.wood_log.name": "Wood Log",
+      "item.resource_generator.miedziucha_hoe": "Miedziucha Hoe",
+      "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
+      "itemGroup.tabmy_mod": "My mod",
+      "block.resource_generator.wood_planks": "Wood Planks",
+      "item.zarelko.name": "¯are³ko",
+      "tile.wood_slab.name": "Wood Slab",
       "item.resource_generator.zarelko": "¯are³ko",
       "block.resource_generator.wood_fence_gate": "Wood Fence Gate",
       "block.resource_generator.wood_wood": "Wood Wood",
-      "item.resource_generator.miedziucha_armor_chestplate": "Miedziucha Chestplate",
+      "item.miedziucha_axe.name": "Miedziucha Axe",
       "item.resource_generator.cat": "Cat Portal Igniter",
-      "item.resource_generator.miedziucha_armor_helmet": "Miedziucha Helmet",
-      "biome.resource_generator.mybiome": "Mybiome",
+      "tile.wood_fence_gate.name": "Wood Fence Gate",
+      "item.miedziucha_ingot.name": "Miedziucha",
       "item.resource_generator.miedziucha_armor_boots": "Miedziucha Boots",
-      "block.resource_generator.emerald_generator": "Emerald Generator",
       "item.resource_generator.super_miecz": "Super Miecz",
-      "block.resource_generator.wood_slab": "Wood Slab",
-      "item.resource_generator.xd_spawn_egg": "Xd Spawn Egg",
+      "tile.wood_fence.name": "Wood Fence",
+      "tile.miedziucha_ore.name": "Miedziucha Ore",
+      "item.super_miecz.name": "Super Miecz",
       "item.resource_generator.multinarzedzie": "Multinarzedzie",
-      "item.resource_generator.miedziucha_ingot": "Miedziucha",
-      "subtitles.dino.death": "",
-      "item.resource_generator.miedziucha_armor_leggings": "Miedziucha Leggings",
       "entity.resource_generator.dino": "Dino",
-      "entity.resource_generator.xd": "Xd",
       "block.resource_generator.wood_stairs": "Wood Stairs",
       "item.resource_generator.miedziucha_sword": "Miedziucha Sword",
       "block.resource_generator.wood_fence": "Wood Fence",
-      "item.resource_generator.hiperkilof": "Hiperkilof",
+      "tile.wood_stairs.name": "Wood Stairs",
+      "tile.emerald_generator.name": "Emerald Generator",
       "item.resource_generator.xd": "Xd Spawn Egg",
-      "subtitles.dino.living": "",
-      "block.resource_generator.miedziucha_block": "Block of Miedziucha",
-      "block.resource_generator.wood_log": "Wood Log",
       "block.resource_generator.miedziucha_ore": "Miedziucha Ore",
-      "block.resource_generator.wood_leaves": "Wood Leaves"
+      "block.resource_generator.wood_leaves": "Wood Leaves",
+      "tile.wood_planks.name": "Wood Planks"
     }
   },
   "workspaceSettings": {
     "modid": "resource_generator",
     "modName": "Resource generator",
     "version": "1.0.0",
-    "author": "Guest, MCreator",
+    "author": "JanekKoduje",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "mob",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.resourcegenerator",
+    "modElementsPackage": "pl.janekkoduje.resourcegenerator",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000547520

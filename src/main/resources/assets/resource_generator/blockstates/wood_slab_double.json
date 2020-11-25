@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "resource_generator:wood_slab_double"
+    }
+  }
+}

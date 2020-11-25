@@ -1,10 +1,13 @@
 {
   "variants": {
     "axis=z": {
-      "model": "resource_generator:block/cat_portal_ew"
+      "model": "resource_generator:cat_portal_ew"
     },
     "axis=x": {
-      "model": "resource_generator:block/cat_portal_ns"
+      "model": "resource_generator:cat_portal_ns"
+    },
+    "inventory": {
+      "model": "resource_generator:cat_portal_ns"
     }
   }
 }

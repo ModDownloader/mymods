@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "resource_generator:block/wood_log"
+    "normal": {
+      "model": "resource_generator:wood_log"
     }
   }
 }
