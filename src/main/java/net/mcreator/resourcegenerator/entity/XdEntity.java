@@ -271,7 +271,7 @@ public class XdEntity extends ResourceGeneratorModElements.ModElement {
 			Random random = this.rand;
 			Entity entity = this;
 			if (true)
-				for (int l = 0; l < 30; ++l) {
+				for (int l = 0; l < 5; ++l) {
 					double d0 = (x + random.nextFloat());
 					double d1 = (y + random.nextFloat());
 					double d2 = (z + random.nextFloat());
