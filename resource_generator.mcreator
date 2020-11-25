@@ -553,13 +553,13 @@
     "en_us": {
       "item.resource_generator.xprainitem": "Xp rain item",
       "block.resource_generator.xprain": "Xp rain",
-      "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
       "item.resource_generator.miedziucha_hoe": "Miedziucha Hoe",
+      "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
       "item.resource_generator.miedziucha_shovel": "Miedziucha Shovel",
       "itemGroup.tabmy_mod": "My mod",
       "item.resource_generator.dino_spawn_egg": "Dino Spawn Egg",
-      "item.resource_generator.zarelko": "¯are³ko",
       "item.resource_generator.miedziucha_axe": "Miedziucha Axe",
+      "item.resource_generator.zarelko": "¯are³ko",
       "item.resource_generator.miedziucha_armor_chestplate": "Miedziucha Chestplate",
       "item.resource_generator.cat": "Cat Portal Igniter",
       "item.resource_generator.miedziucha_armor_helmet": "Miedziucha Helmet",
@@ -599,5 +599,5 @@
     "modElementsPackage": "net.mcreator.resourcegenerator",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000546519
+  "mcreatorVersion": 202000547520
 }
