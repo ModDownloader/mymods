@@ -44,7 +44,11 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.ChickenModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
+import net.mcreator.resourcegenerator.procedures.DinoEntityDiesProcedure;
 import net.mcreator.resourcegenerator.ResourceGeneratorModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @ResourceGeneratorModElements.ModElement.Tag
 public class DinoEntity extends ResourceGeneratorModElements.ModElement {
@@ -155,6 +159,23 @@ public class DinoEntity extends ResourceGeneratorModElements.ModElement {
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				DinoEntityDiesProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
