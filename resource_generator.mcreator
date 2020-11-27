@@ -740,6 +740,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "test_3"
+    },
+    {
+      "name": "MyBiomeDimension",
+      "type": "dimension",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "my_biome_dimension"
     }
   ],
   "variable_elements": [],
@@ -827,6 +836,7 @@
       "tile.wood_stairs.name": "Wood Stairs",
       "tile.emerald_generator.name": "Emerald Generator",
       "item.resource_generator.xd": "Xd Spawn Egg",
+      "item.resource_generator.my_biome_dimension": "Zapalniczka.",
       "block.resource_generator.miedziucha_ore": "Miedziucha Ore",
       "block.resource_generator.wood_leaves": "Wood Leaves",
       "tile.wood_planks.name": "Wood Planks"
@@ -896,6 +906,7 @@
       "tile.wood_stairs.name": "Wood Stairs",
       "tile.emerald_generator.name": "Emerald Generator",
       "item.resource_generator.xd": "Xd Spawn Egg",
+      "item.resource_generator.my_biome_dimension": "Zapalniczka.",
       "block.resource_generator.miedziucha_ore": "Miedziucha Ore",
       "block.resource_generator.wood_leaves": "Wood Leaves",
       "tile.wood_planks.name": "Wood Planks"

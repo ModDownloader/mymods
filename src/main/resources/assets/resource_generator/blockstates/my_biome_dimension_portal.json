@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "resource_generator:block/my_biome_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "resource_generator:block/my_biome_dimension_portal_ns"
+    }
+  }
+}

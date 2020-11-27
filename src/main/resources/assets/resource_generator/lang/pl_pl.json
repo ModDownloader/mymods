@@ -63,6 +63,7 @@
   "tile.wood_stairs.name": "Wood Stairs",
   "tile.emerald_generator.name": "Emerald Generator",
   "item.resource_generator.xd": "Xd Spawn Egg",
+  "item.resource_generator.my_biome_dimension": "Zapalniczka.",
   "block.resource_generator.miedziucha_ore": "Miedziucha Ore",
   "block.resource_generator.wood_leaves": "Wood Leaves",
   "tile.wood_planks.name": "Wood Planks"
