@@ -7,17 +7,17 @@
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIAMOND_BLOCK"
+      "value": "Blocks.DIRT#0"
     },
     "treeType": 1,
     "vanillaTreeType": "Default",
-    "minHeight": 30,
-    "spawnVines": false,
+    "minHeight": 5,
+    "spawnVines": true,
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": "Blocks.CYAN_BED"
     },
     "treeStem": {
-      "value": "Blocks.IRON_BLOCK"
+      "value": "Blocks.BUBBLE_COLUMN"
     },
     "treeBranch": {
       "value": "Blocks.DIAMOND_BLOCK"
@@ -25,35 +25,19 @@
     "treeFruits": {
       "value": "Blocks.EMERALD_BLOCK"
     },
-    "airColor": {
-      "value": -5916161,
-      "falpha": 0.0
-    },
-    "grassColor": {
-      "value": -13261999,
-      "falpha": 0.0
-    },
-    "foliageColor": {
-      "value": -13261999,
-      "falpha": 0.0
-    },
     "waterColor": {
-      "value": -14329397,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
-      "value": -14329397,
+      "value": -16777216,
       "falpha": 0.0
     },
     "treesPerChunk": 1,
-    "grassPerChunk": 4,
-    "seagrassPerChunk": 0,
-    "flowersPerChunk": 30,
-    "mushroomsPerChunk": 0,
+    "grassPerChunk": 10,
+    "seagrassPerChunk": 3,
+    "flowersPerChunk": 100,
+    "mushroomsPerChunk": 1,
     "bigMushroomsChunk": 0,
-    "sandPathcesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
+    "sandPathcesPerChunk": 1,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 1,
     "cactiPerChunk": 0,
     "rainingPossibility": 0.0,
     "temperature": 1.0,
@@ -61,22 +45,22 @@
     "heightVariation": 0.2,
     "spawnBiome": true,
     "biomeWeight": 10,
-    "biomeType": "WARM",
-    "biomeCategory": "NONE",
+    "biomeType": "COOL",
+    "biomeCategory": "BEACH",
     "parent": {
       "value": "No parent"
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,
-    "spawnPillagerOutpost": true,
-    "villageType": "none",
+    "spawnPillagerOutpost": false,
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
-    "spawnIgloo": false,
+    "spawnIgloo": true,
     "spawnOceanMonument": false,
-    "spawnShipwreck": false,
-    "oceanRuinType": "NONE",
+    "spawnShipwreck": true,
+    "oceanRuinType": "WARM",
     "biomeDictionaryTypes": [],
     "defaultFeatures": [
       "Caves",
@@ -153,10 +137,10 @@
         "entity": {
           "value": "EntityXPOrb"
         },
-        "minGroup": 1,
+        "minGroup": 10,
         "maxGroup": 15,
-        "weight": 15,
-        "spawnType": "creature"
+        "weight": 25,
+        "spawnType": "monster"
       }
     ]
   }
