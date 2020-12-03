@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 4,
     "GUI": 2,
-    "DIMENSION": 1
+    "DIMENSION": 1,
+    "ENTITY": 4
   },
   "mod_elements": [
     {
@@ -749,6 +749,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "my_biome_dimension"
+    },
+    {
+      "name": "PotionkaPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potionka_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Potionka",
+      "type": "potion",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potionka"
     }
   ],
   "variable_elements": [],
@@ -778,6 +804,7 @@
       "tile.wood_wood.name": "Wood Wood",
       "item.resource_generator.miedziucha_shovel": "Miedziucha Shovel",
       "item.miedziucha_armorhelmet.name": "Miedziucha Helmet",
+      "item.minecraft.splash_potion.effect.potionka": "Splash Potionka",
       "item.resource_generator.dino_spawn_egg": "Dino Spawn Egg",
       "item.resource_generator.miedziucha_axe": "Miedziucha Axe",
       "tile.wood_leaves.name": "Wood Leaves",
@@ -810,9 +837,11 @@
       "block.resource_generator.wood_log": "Wood Log",
       "item.hiperkilof.name": "Hiperkilof",
       "tile.wood_log.name": "Wood Log",
+      "item.minecraft.lingering_potion.effect.potionka": "Lingering Potionka",
       "item.resource_generator.miedziucha_hoe": "Miedziucha Hoe",
       "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
       "itemGroup.tabmy_mod": "My mod",
+      "item.minecraft.potion.effect.potionka": "Potionka",
       "block.resource_generator.wood_planks": "Wood Planks",
       "item.zarelko.name": "¯are³ko",
       "tile.wood_slab.name": "Wood Slab",
@@ -826,9 +855,11 @@
       "item.resource_generator.miedziucha_armor_boots": "Miedziucha Boots",
       "item.resource_generator.super_miecz": "Super Miecz",
       "tile.wood_fence.name": "Wood Fence",
+      "effect.potionka": "Potionka",
       "tile.miedziucha_ore.name": "Miedziucha Ore",
       "item.super_miecz.name": "Super Miecz",
       "item.resource_generator.multinarzedzie": "Multinarzedzie",
+      "item.minecraft.tipped_arrow.effect.potionka": "Arrow of Potionka",
       "entity.resource_generator.dino": "Dino",
       "block.resource_generator.wood_stairs": "Wood Stairs",
       "item.resource_generator.miedziucha_sword": "Miedziucha Sword",
@@ -848,6 +879,7 @@
       "tile.wood_wood.name": "Wood Wood",
       "item.resource_generator.miedziucha_shovel": "Miedziucha Shovel",
       "item.miedziucha_armorhelmet.name": "Miedziucha Helmet",
+      "item.minecraft.splash_potion.effect.potionka": "Splash Potionka",
       "item.resource_generator.dino_spawn_egg": "Dino Spawn Egg",
       "item.resource_generator.miedziucha_axe": "Miedziucha Axe",
       "tile.wood_leaves.name": "Wood Leaves",
@@ -880,9 +912,11 @@
       "block.resource_generator.wood_log": "Wood Log",
       "item.hiperkilof.name": "Hiperkilof",
       "tile.wood_log.name": "Wood Log",
+      "item.minecraft.lingering_potion.effect.potionka": "Lingering Potionka",
       "item.resource_generator.miedziucha_hoe": "Miedziucha Hoe",
       "item.resource_generator.miedziucha_pickaxe": "Miedziucha Pickaxe",
       "itemGroup.tabmy_mod": "My mod",
+      "item.minecraft.potion.effect.potionka": "Potionka",
       "block.resource_generator.wood_planks": "Wood Planks",
       "item.zarelko.name": "¯are³ko",
       "tile.wood_slab.name": "Wood Slab",
@@ -896,9 +930,11 @@
       "item.resource_generator.miedziucha_armor_boots": "Miedziucha Boots",
       "item.resource_generator.super_miecz": "Super Miecz",
       "tile.wood_fence.name": "Wood Fence",
+      "effect.potionka": "Potionka",
       "tile.miedziucha_ore.name": "Miedziucha Ore",
       "item.super_miecz.name": "Super Miecz",
       "item.resource_generator.multinarzedzie": "Multinarzedzie",
+      "item.minecraft.tipped_arrow.effect.potionka": "Arrow of Potionka",
       "entity.resource_generator.dino": "Dino",
       "block.resource_generator.wood_stairs": "Wood Stairs",
       "item.resource_generator.miedziucha_sword": "Miedziucha Sword",
