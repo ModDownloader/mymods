@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "biome",
   "definition": {
     "name": "Mybiome",
@@ -9,46 +9,50 @@
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
     },
-    "treeType": 1,
-    "vanillaTreeType": "Default",
-    "minHeight": 5,
-    "spawnVines": true,
-    "treeVines": {
-      "value": "Blocks.CYAN_BED"
+    "waterColor": {
+      "value": -16777216,
+      "falpha": 0.0
     },
+    "moodSoundDelay": 0,
+    "spawnParticles": false,
+    "particlesProbability": 0.0,
+    "biomeCategory": "BEACH",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 1.0,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "COOL",
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 10,
+    "seagrassPerChunk": 3,
+    "flowersPerChunk": 100,
+    "mushroomsPerChunk": 1,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 5,
+    "maxWaterDepth": 0,
     "treeStem": {
       "value": "Blocks.BUBBLE_COLUMN"
     },
     "treeBranch": {
       "value": "Blocks.DIAMOND_BLOCK"
     },
+    "treeVines": {
+      "value": "Blocks.CYAN_BED"
+    },
     "treeFruits": {
       "value": "Blocks.EMERALD_BLOCK"
-    },
-    "waterColor": {
-      "value": -16777216,
-      "falpha": 0.0
-    },
-    "treesPerChunk": 1,
-    "grassPerChunk": 10,
-    "seagrassPerChunk": 3,
-    "flowersPerChunk": 100,
-    "mushroomsPerChunk": 1,
-    "bigMushroomsChunk": 0,
-    "sandPathcesPerChunk": 1,
-    "gravelPatchesPerChunk": 1,
-    "reedsPerChunk": 1,
-    "cactiPerChunk": 0,
-    "rainingPossibility": 0.0,
-    "temperature": 1.0,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
-    "spawnBiome": true,
-    "biomeWeight": 10,
-    "biomeType": "COOL",
-    "biomeCategory": "BEACH",
-    "parent": {
-      "value": "No parent"
     },
     "spawnStronghold": true,
     "spawnMineshaft": true,
@@ -61,7 +65,6 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": true,
     "oceanRuinType": "WARM",
-    "biomeDictionaryTypes": [],
     "defaultFeatures": [
       "Caves",
       "MonsterRooms",

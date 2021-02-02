@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "DIMENSION": 1,
     "GUI": 2,
-    "ENTITY": 4
+    "ENTITY": 4,
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -280,7 +280,10 @@
       "ids": {
         "1": 1
       },
-      "registry_name": "cat"
+      "registry_name": "cat",
+      "metadata": {
+        "ep": true
+      }
     },
     {
       "name": "CatPlayerEntersDimension",
@@ -748,7 +751,10 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "my_biome_dimension"
+      "registry_name": "my_biome_dimension",
+      "metadata": {
+        "ep": true
+      }
     },
     {
       "name": "PotionkaPotionStartedapplied",
@@ -966,5 +972,5 @@
     "modElementsPackage": "pl.janekkoduje.resourcegenerator",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547520
+  "mcreatorVersion": 202100103117
 }

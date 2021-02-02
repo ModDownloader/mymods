@@ -1,6 +1,7 @@
 package pl.janekkoduje.resourcegenerator.procedures;
 
 import pl.janekkoduje.resourcegenerator.ResourceGeneratorModElements;
+import pl.janekkoduje.resourcegenerator.ResourceGeneratorMod;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
@@ -17,17 +18,17 @@ public class LolProcedure extends ResourceGeneratorModElements.ModElement {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure Lol!");
+				ResourceGeneratorMod.LOGGER.warn("Failed to load dependency x for procedure Lol!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure Lol!");
+				ResourceGeneratorMod.LOGGER.warn("Failed to load dependency z for procedure Lol!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure Lol!");
+				ResourceGeneratorMod.LOGGER.warn("Failed to load dependency world for procedure Lol!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

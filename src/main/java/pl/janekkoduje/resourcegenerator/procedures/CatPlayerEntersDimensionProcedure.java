@@ -1,6 +1,7 @@
 package pl.janekkoduje.resourcegenerator.procedures;
 
 import pl.janekkoduje.resourcegenerator.ResourceGeneratorModElements;
+import pl.janekkoduje.resourcegenerator.ResourceGeneratorMod;
 
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.entity.player.PlayerEntity;
@@ -17,7 +18,7 @@ public class CatPlayerEntersDimensionProcedure extends ResourceGeneratorModEleme
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure CatPlayerEntersDimension!");
+				ResourceGeneratorMod.LOGGER.warn("Failed to load dependency entity for procedure CatPlayerEntersDimension!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

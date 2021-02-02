@@ -1,6 +1,7 @@
 package pl.janekkoduje.resourcegenerator.procedures;
 
 import pl.janekkoduje.resourcegenerator.ResourceGeneratorModElements;
+import pl.janekkoduje.resourcegenerator.ResourceGeneratorMod;
 
 import net.minecraftforge.items.ItemHandlerHelper;
 
@@ -20,7 +21,7 @@ public class BlokProcedure extends ResourceGeneratorModElements.ModElement {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure Blok!");
+				ResourceGeneratorMod.LOGGER.warn("Failed to load dependency entity for procedure Blok!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
